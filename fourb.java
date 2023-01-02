@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package labwork;
+
+/**
+ *
+ * @author Ram Kumar Lohani
+ */
+    class Student{ 
+ int id; 
+ String name; 
+ int age; 
+ //creating two arg constructor 
+ Student(int i, String n){ 
+ id = i; 
+ name = n; 
+ } 
+ //creating three arg constructor 
+ Student(int i,String n,int a){ 
+ id = i; 
+ name = n; 
+ age=a; 
+ } 
+ void display(){
+System.out.println(id+" "+name+" "+age);
+} 
+ 
+ public static void main(String args[]){ 
+ Student s1 = new Student(21,"Susmita"); 
+ Student s2 = new Student(17,"samima",23); 
+ s1.display(); 
+ s2.display(); 
+  
+  System.out.println("Lab No:4b Name:Susmita Lohani Roll No:23 Section:A");
+}
+    } 
